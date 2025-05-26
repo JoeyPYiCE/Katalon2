@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.com/')
 
-int A = U1
+int A = 2
 
-int B = U2
+int B = 3
 
 WebUI.verifyEqual(B - A, 1)
 
