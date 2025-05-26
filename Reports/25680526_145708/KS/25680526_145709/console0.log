@@ -1,0 +1,57 @@
+2025-05-26 14:57:13.318 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/KS
+2025-05-26 14:57:13.385 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Purin Yodvanich
+2025-05-26 14:57:13.385 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Katalon2
+2025-05-26 14:57:13.387 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Joey - LAPTOP-PTCMI08L
+2025-05-26 14:57:13.387 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-05-26 14:57:13.388 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.101.101.202
+2025-05-26 14:57:13.388 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-26 14:57:13.792 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-26 14:57:13.792 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/New Test Case
+2025-05-26 14:57:13.824 INFO  c.k.katalon.core.main.TestCaseExecutor   - U1 = 1
+2025-05-26 14:57:13.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - U2 = 2
+2025-05-26 14:57:14.128 DEBUG testcase.New Test Case                   - 1: openBrowser("")
+2025-05-26 14:57:14.317 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-26 14:57:14.368 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+พ.ค. 26, 2025 2:57:15 หลังเที่ยง org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+พ.ค. 26, 2025 2:57:15 หลังเที่ยง org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-26 14:57:16.337 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4cd1171e7f1ac34fd63be8ab85e00569
+2025-05-26 14:57:16.339 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-26 14:57:16.339 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-26 14:57:16.339 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-26 14:57:16.346 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-26 14:57:16.383 DEBUG testcase.New Test Case                   - 2: navigateToUrl("https://www.ilovepdf.com/split_pdf#split,range")
+2025-05-26 14:57:17.638 DEBUG testcase.New Test Case                   - 3: click(findTestObject("Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF"))
+2025-05-26 14:57:19.131 DEBUG testcase.New Test Case                   - 4: Hi = U1
+2025-05-26 14:57:19.134 DEBUG testcase.New Test Case                   - 5: Ho = U2
+2025-05-26 14:57:19.136 DEBUG testcase.New Test Case                   - 6: He = Hi + Ho
+2025-05-26 14:57:19.145 DEBUG testcase.New Test Case                   - 7: verifyEqual(He, Hi + Ho)
+2025-05-26 14:57:19.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/New Test Case
+2025-05-26 14:57:19.221 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-26 14:57:19.221 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/New Test Case
+2025-05-26 14:57:19.238 INFO  c.k.katalon.core.main.TestCaseExecutor   - U1 = 3
+2025-05-26 14:57:19.239 INFO  c.k.katalon.core.main.TestCaseExecutor   - U2 = 4
+2025-05-26 14:57:19.242 DEBUG testcase.New Test Case                   - 1: openBrowser("")
+2025-05-26 14:57:19.247 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-26 14:57:19.450 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-26 14:57:19.451 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+พ.ค. 26, 2025 2:57:20 หลังเที่ยง org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+พ.ค. 26, 2025 2:57:20 หลังเที่ยง org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-26 14:57:20.628 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1367facf986669d59fb62f266acb7299
+2025-05-26 14:57:20.629 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-26 14:57:20.629 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-26 14:57:20.629 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-26 14:57:20.629 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-26 14:57:20.645 DEBUG testcase.New Test Case                   - 2: navigateToUrl("https://www.ilovepdf.com/split_pdf#split,range")
+2025-05-26 14:57:21.872 DEBUG testcase.New Test Case                   - 3: click(findTestObject("Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF"))
+2025-05-26 14:57:23.332 DEBUG testcase.New Test Case                   - 4: Hi = U1
+2025-05-26 14:57:23.333 DEBUG testcase.New Test Case                   - 5: Ho = U2
+2025-05-26 14:57:23.333 DEBUG testcase.New Test Case                   - 6: He = Hi + Ho
+2025-05-26 14:57:23.334 DEBUG testcase.New Test Case                   - 7: verifyEqual(He, Hi + Ho)
+2025-05-26 14:57:23.339 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/New Test Case
+2025-05-26 14:57:23.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-26 14:57:23.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/KS
+2025-05-26 14:57:23.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

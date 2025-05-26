@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 136.0.7103.114,,,26-05-2025 14:51:56,26-05-2025 14:52:08,11.975s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 136.0.7103.114,,,26-05-2025 14:51:57,26-05-2025 14:52:03,6.465s,PASSED
+"DATA BINDING - {""U1"":""1"",""U2"":""2""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,26-05-2025 14:51:57,26-05-2025 14:51:59,2.265s,PASSED
+"navigateToUrl(""https://www.ilovepdf.com/split_pdf#split,range"")",Chrome 136.0.7103.114,,,26-05-2025 14:51:59,26-05-2025 14:52:01,1.861s,PASSED
+"click(findTestObject(""Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF""))",Chrome 136.0.7103.114,,,26-05-2025 14:52:01,26-05-2025 14:52:03,1.999s,PASSED
+Hi = U1,Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:03,0.002s,PASSED
+Ho = U2,Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:03,0.001s,PASSED
+He = Hi + Ho,Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:03,0.006s,PASSED
+"verifyEqual(He, Hi + Ho)",Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:03,0.020s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:08,4.882s,PASSED
+"DATA BINDING - {""U1"":""3"",""U2"":""4""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,26-05-2025 14:52:03,26-05-2025 14:52:05,1.443s,PASSED
+"navigateToUrl(""https://www.ilovepdf.com/split_pdf#split,range"")",Chrome 136.0.7103.114,,,26-05-2025 14:52:05,26-05-2025 14:52:06,1.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF""))",Chrome 136.0.7103.114,,,26-05-2025 14:52:06,26-05-2025 14:52:08,2.274s,PASSED
+Hi = U1,Chrome 136.0.7103.114,,,26-05-2025 14:52:08,26-05-2025 14:52:08,0.001s,PASSED
+Ho = U2,Chrome 136.0.7103.114,,,26-05-2025 14:52:08,26-05-2025 14:52:08,0.000s,PASSED
+He = Hi + Ho,Chrome 136.0.7103.114,,,26-05-2025 14:52:08,26-05-2025 14:52:08,0.001s,PASSED
+"verifyEqual(He, Hi + Ho)",Chrome 136.0.7103.114,,,26-05-2025 14:52:08,26-05-2025 14:52:08,0.002s,PASSED

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KS2" time="3.956" tests="1" failures="0" errors="0">
+   <testsuite name="KS2" tests="1" failures="0" errors="0" time="3.956" skipped="0" timestamp="26-05-2025T15:00:06" hostname="Joey - LAPTOP-PTCMI08L" id="Test Suites/KS2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Joey\\git\\Katalon2\\Reports\\25680526_150003\\KS2\\25680526_150003"/>
+         <property name="logFiles" value="C:\\Users\\Joey\\git\\Katalon2\\Reports\\25680526_150003\\KS2\\25680526_150003\\console0.log, C:\\Users\\Joey\\git\\Katalon2\\Reports\\25680526_150003\\KS2\\25680526_150003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Joey - LAPTOP-PTCMI08L"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 136.0.7103.114"/>
+         <property name="userFullName" value="Purin Yodvanich"/>
+         <property name="hostAddress" value="192.101.101.202"/>
+         <property name="sessionId" value="88403bed3520e83db773fc13d2b1cfbe"/>
+         <property name="projectName" value="Katalon2"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case 3" time="3.529" classname="Test Cases/New Test Case 3" status="PASSED">
+         <system-out><![CDATA[26-05-2025T15:00:07 - [TEST_CASE][PASSED] - Test Cases/New Test Case 3: Test Cases/New Test Case 3
+
+26-05-2025T15:00:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2025T15:00:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2025T15:00:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2025T15:00:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2025T15:00:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+26-05-2025T15:00:10 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+26-05-2025T15:00:10 - [TEST_STEP][PASSED] - A = 1: null
+
+26-05-2025T15:00:10 - [TEST_STEP][PASSED] - B = 2: null
+
+26-05-2025T15:00:10 - [TEST_STEP][PASSED] - verifyEqual(B - A, 1): Actual object '1' and expected object '1' are equal
+
+26-05-2025T15:00:10 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2025T15:00:06 - [TEST_SUITE][PASSED] - KS2: Test Cases/New Test Case 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

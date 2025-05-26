@@ -1,0 +1,29 @@
+2025-05-26 15:00:06.742 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/KS2
+2025-05-26 15:00:06.820 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Purin Yodvanich
+2025-05-26 15:00:06.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Katalon2
+2025-05-26 15:00:06.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Joey - LAPTOP-PTCMI08L
+2025-05-26 15:00:06.822 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-05-26 15:00:06.823 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.101.101.202
+2025-05-26 15:00:06.823 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-26 15:00:07.230 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-26 15:00:07.230 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/New Test Case 3
+2025-05-26 15:00:07.506 DEBUG testcase.New Test Case 3                 - 1: openBrowser("")
+2025-05-26 15:00:07.718 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-26 15:00:07.769 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+พ.ค. 26, 2025 3:00:09 หลังเที่ยง org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+พ.ค. 26, 2025 3:00:09 หลังเที่ยง org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-26 15:00:09.649 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 88403bed3520e83db773fc13d2b1cfbe
+2025-05-26 15:00:09.650 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-26 15:00:09.650 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-26 15:00:09.651 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-26 15:00:09.656 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-26 15:00:09.686 DEBUG testcase.New Test Case 3                 - 2: navigateToUrl("https://www.google.com/")
+2025-05-26 15:00:10.726 DEBUG testcase.New Test Case 3                 - 3: A = 1
+2025-05-26 15:00:10.728 DEBUG testcase.New Test Case 3                 - 4: B = 2
+2025-05-26 15:00:10.729 DEBUG testcase.New Test Case 3                 - 5: verifyEqual(B - A, 1)
+2025-05-26 15:00:10.758 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/New Test Case 3
+2025-05-26 15:00:10.966 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-26 15:00:10.966 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/KS2
+2025-05-26 15:00:10.966 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

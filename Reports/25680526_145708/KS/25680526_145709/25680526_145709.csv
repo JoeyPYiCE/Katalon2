@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KS,Chrome 136.0.7103.114,,,26-05-2025 14:57:13,26-05-2025 14:57:23,10.286s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 136.0.7103.114,,,26-05-2025 14:57:13,26-05-2025 14:57:19,5.388s,PASSED
+"DATA BINDING - {""U1"":""1"",""U2"":""2""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,26-05-2025 14:57:14,26-05-2025 14:57:16,2.256s,PASSED
+"navigateToUrl(""https://www.ilovepdf.com/split_pdf#split,range"")",Chrome 136.0.7103.114,,,26-05-2025 14:57:16,26-05-2025 14:57:17,1.254s,PASSED
+"click(findTestObject(""Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF""))",Chrome 136.0.7103.114,,,26-05-2025 14:57:17,26-05-2025 14:57:19,1.493s,PASSED
+Hi = U1,Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:19,0.002s,PASSED
+Ho = U2,Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:19,0.002s,PASSED
+He = Hi + Ho,Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:19,0.007s,PASSED
+"verifyEqual(He, Hi + Ho)",Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:19,0.034s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:23,4.118s,PASSED
+"DATA BINDING - {""U1"":""3"",""U2"":""4""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,26-05-2025 14:57:19,26-05-2025 14:57:20,1.403s,PASSED
+"navigateToUrl(""https://www.ilovepdf.com/split_pdf#split,range"")",Chrome 136.0.7103.114,,,26-05-2025 14:57:20,26-05-2025 14:57:21,1.227s,PASSED
+"click(findTestObject(""Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF""))",Chrome 136.0.7103.114,,,26-05-2025 14:57:21,26-05-2025 14:57:23,1.460s,PASSED
+Hi = U1,Chrome 136.0.7103.114,,,26-05-2025 14:57:23,26-05-2025 14:57:23,0.001s,PASSED
+Ho = U2,Chrome 136.0.7103.114,,,26-05-2025 14:57:23,26-05-2025 14:57:23,0.001s,PASSED
+He = Hi + Ho,Chrome 136.0.7103.114,,,26-05-2025 14:57:23,26-05-2025 14:57:23,0.000s,PASSED
+"verifyEqual(He, Hi + Ho)",Chrome 136.0.7103.114,,,26-05-2025 14:57:23,26-05-2025 14:57:23,0.004s,PASSED

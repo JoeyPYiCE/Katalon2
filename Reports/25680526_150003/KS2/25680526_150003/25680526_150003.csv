@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KS2,Chrome 136.0.7103.114,,,26-05-2025 15:00:06,26-05-2025 15:00:10,4.163s,PASSED
+,,,,,,,
+Test Cases/New Test Case 3,Chrome 136.0.7103.114,,,26-05-2025 15:00:07,26-05-2025 15:00:10,3.529s,PASSED
+"openBrowser("""")",Chrome 136.0.7103.114,,,26-05-2025 15:00:07,26-05-2025 15:00:09,2.182s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 136.0.7103.114,,,26-05-2025 15:00:09,26-05-2025 15:00:10,1.038s,PASSED
+A = 1,Chrome 136.0.7103.114,,,26-05-2025 15:00:10,26-05-2025 15:00:10,0.001s,PASSED
+B = 2,Chrome 136.0.7103.114,,,26-05-2025 15:00:10,26-05-2025 15:00:10,0.001s,PASSED
+"verifyEqual(B - A, 1)",Chrome 136.0.7103.114,,,26-05-2025 15:00:10,26-05-2025 15:00:10,0.027s,PASSED
