@@ -6,4 +6,39 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5d5e6819-1ff5-4205-86a0-1ec4ea370660</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a2f27d40-367b-4bba-929a-047a158cbf73</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a2f27d40-367b-4bba-929a-047a158cbf73</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>A</value>
+      <variableId>3e2dc046-4a48-47a8-b1ed-0c17a2033457</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a2f27d40-367b-4bba-929a-047a158cbf73</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>B1</value>
+      <variableId>510cbc7a-7039-4abf-8b1d-e88715429680</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>3e2dc046-4a48-47a8-b1ed-0c17a2033457</id>
+      <masked>false</masked>
+      <name>U1</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>510cbc7a-7039-4abf-8b1d-e88715429680</id>
+      <masked>false</masked>
+      <name>U2</name>
+   </variable>
 </TestCaseEntity>

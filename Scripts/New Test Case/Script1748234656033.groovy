@@ -23,3 +23,11 @@ WebUI.navigateToUrl('https://www.ilovepdf.com/split_pdf#split,range')
 
 WebUI.click(findTestObject('Object Repository/Page_Split PDF files online. Free service t_31c98c/a_Merge PDF'))
 
+int Hi = U1
+
+int Ho = U2
+
+int He = Hi + Ho
+
+WebUI.verifyEqual(He, Hi + Ho)
+
